@@ -1,0 +1,157 @@
+*
+
+{
+	margin:0;
+	padding:0;
+}
+header{
+	background: url(../image/saloon.jpg); 
+	height: 100vh;
+	/*width:100%;*/
+	background-size: cover;
+	background-position: center;
+	
+}
+.main-nav
+{
+ float:right;
+ list-style: none;
+ margin-top: 30px;
+
+}
+.main-nav li
+{
+	display:inline-block;
+}
+.main-nav li a
+{
+	color:white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: "Roboto",sans-serif;
+	font-size: 15px;
+}
+.main-nav li.active a
+{
+ border: 1px solid white;	
+}
+.main-nav li a:hover;
+{
+	border:1px solid white;
+}
+.logo img
+{
+	width:100px;
+	height:80px;
+	float:left;
+}
+body
+{
+	font-family: monospace;
+}
+.row
+{
+ max-width: 1500px;
+ /*margin: auto*/;
+}
+.hero
+{
+	position: relative;
+	width: 1200px;
+	bottom:190px;
+	right:350px;
+
+	
+}
+h1
+{
+	color: #eb008b ;
+	text-transform: lowercase;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 120px;
+}
+.mime
+{
+	background-color: black;
+	width: 1500px;
+	height: 85px
+}
+
+
+
+h2
+{
+	color:purple;
+	font-size: 50px;
+	font-family: arial;
+	text-align: center
+
+}
+h3
+{
+	font-size: 20px
+}
+h4
+{
+	font-size: 20px
+}
+h5
+{
+	font-size: 20px
+}
+footer
+{
+	background-color: #B16FAE;
+	width: 1500px;
+	height: 80px;
+
+}
+h6
+{
+	font-size: 12px;
+	color:white;
+	position: relative;
+	top:20px;
+	
+}
+ .one p{
+ 	color: white;
+ 	position: relative;
+ 	left: 1300px;
+ 	bottom:15px;
+}
+.button
+{
+	margin-top: 400px;
+	margin-left: 750px;
+}
+.btn
+{
+	border:1px solid white;
+	padding: 10px 30px;
+	color:white;
+	text-decoration: none;
+	margin-right: 5px;
+	font-size: 15px;
+	text-transform: uppercase;
+
+}
+.btn-one
+{
+	background-color: #e1339c;
+	font-family: "Roboto";sans-serif;
+}
+.btn-two
+{
+	font-family: "Roboto";sans-serif;
+}
+.btn-two:hover
+{
+	background-color:#e1339c;
+	transition: all 0.5s ease-in;
+}
+
+   
+
+
